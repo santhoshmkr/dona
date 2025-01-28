@@ -32,7 +32,7 @@ const Signup = () => {
 
   return (
     <div className="w-full h-[88vh] flex bg-[#fff]">
-      <div className="m-auto flex flex-col border p-5 rounded-[1rem] shadow-lg gap-[2rem] bg-[#ffff] w-1/2">
+      <div className="m-auto flex flex-col border p-5 rounded-[1rem] shadow-lg gap-[2rem] bg-[#ffff] w-[80%] md:w-1/2 lg:w-1/3 ">
         <h2 className="text-2xl font-[nunito] m-auto font-[800]">Signup</h2>
         <div className="flex flex-col">
           <label htmlFor="name">Name</label>
